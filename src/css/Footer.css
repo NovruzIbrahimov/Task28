@@ -1,0 +1,45 @@
+.footer-all{
+    background-color: #101010;
+}
+.footer-all .container{
+    padding: 80px 0 0 0;
+    
+}
+.footer-text h1{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #EC7532;
+    cursor: pointer;
+}
+.footer-text p{
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 8px 0 0 0;
+    cursor: pointer;    
+}
+ .fat, .faf, .fag{
+    margin-right: 10px;
+    color: #797474;
+ } 
+.fat{
+    font-size: 14px;
+}
+.fag{
+    font-size: 18px;
+}
+.footer-text p:hover{
+    color: #EC7532;
+}
+.copyright{
+    margin-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding: 20px 0;
+}
+.copyright p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
