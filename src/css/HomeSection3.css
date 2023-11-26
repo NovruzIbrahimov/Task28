@@ -47,6 +47,10 @@ ul.top-text li.last-li{
     height: 172px;
     border: none;
     border-radius: 15px;
+    margin: 0 0 90px 0;
+}
+.right .box2{
+    margin: 0 0 60px 0;
 }
 .left .box1 img{
     width: 100%;

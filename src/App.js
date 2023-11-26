@@ -7,6 +7,7 @@ import WhatsOn from './pages/WhatsOn';
 import News from './pages/News';
 import ShortCodes from './pages/ShortCodes';
 import Contact from './pages/Contact';
+import Detail from './pages/Detail';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/shortCodes" element={<ShortCodes />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/detail/:id" element={<Detail />} />
       </Routes>
       <Footer />
     </div>

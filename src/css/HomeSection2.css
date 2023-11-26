@@ -28,7 +28,8 @@
     border-radius: 10px;
     margin-bottom: 50px;
     position: relative;
-  overflow: hidden;
+    overflow: hidden;
+    cursor: pointer;
 }
 .homeSect .box img{
     width: 100%;
@@ -50,6 +51,20 @@
     color: #ec7532;
     margin: 3px;
 }
+/* .overlay::before {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: -100px;
+    width: 0;
+    height: 100%;
+    content: '';
+    transition: .5s;
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+    opacity: .9;
+    background-image: linear-gradient(to bottom, #fbbd61, #ec7532);
+} */
 
 .overlay {
     position: absolute;
